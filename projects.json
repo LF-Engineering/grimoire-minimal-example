@@ -1,0 +1,13 @@
+{
+  "all": {
+    "github:issue": [
+      "https://github.com/lukaszgryglicki/csqconv"
+    ],
+    "github:pull_request": [
+      "https://github.com/lukaszgryglicki/csqconv"
+    ],
+    "git": [
+      "https://github.com/lukaszgryglicki/csqconv"
+    ]
+  }
+}

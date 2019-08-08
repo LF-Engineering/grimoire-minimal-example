@@ -1,2 +1,2 @@
 # grimoire-minimal-example
-Minimal grimoire stack example
+minimal example of a working grimoire deployment

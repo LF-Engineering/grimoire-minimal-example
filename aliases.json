@@ -1,0 +1,26 @@
+{
+  "git": {
+    "raw": [
+      "git-raw_csqconv"
+    ],
+    "enrich": [
+      "git_csqconv",
+      "git_author_csqconv",
+      "git_enrich_csqconv",
+      "affiliations_csqconv"
+    ]
+  },
+  "github": {
+    "raw": [
+      "github-raw_csqconv"
+    ],
+    "enrich": [
+      "github_issues_csqconv",
+      "github_issues_enrich_csqconv",
+      "issues_closed_csqconv",
+      "issues_created_csqconv",
+      "issues_updated_csqconv",
+      "affiliations_csqconv"
+    ]
+  }
+}
