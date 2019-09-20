@@ -8,4 +8,6 @@ arthurd -g --no-daemon \
   --no-archive \
   -d "$REDIS_URL" \
   --pubsub-channel "$PUBSUB_CHANNEL" \
-  --log-path /home/grimoire/debug/arthurd_logs
+  --log-path /home/grimoire/debug/arthurd_logs \
+  1>/home/grimoire/debug/arthurd_logs/stdout.log \
+  2>/home/grimoire/debug/arthurd_logs/stderr.log

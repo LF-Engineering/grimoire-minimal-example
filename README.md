@@ -14,4 +14,4 @@ minimal example of a working grimoire deployment
 - Shell into mordred pod again: `pod_shell.sh test grimoire-debug mordred-699d69549b-zghvm /bin/bash mordred`, execute: `cd /home/grimoire/debug/ && tar xf debug.tar && rm -f debug.tar`.
 - Edit `mordred.ini` file, provide credentials for `[redacted]` values, for example change `[redacted]` into `[6415b462cd631241ef56132a612b546f2423e6cc]`.
 - You can get GitHub API credential from some other deployment, for example: `pod_shell.sh test g-lf-zephyr mordred-8c4d7d4f6-5vxdp /bin/bash mordred` and then `cat /config/mordred.ini | grep 'api-token'`.
-- Edit `projects.json`, put you git/GiHub repo(s) there.
+- Edit `projects.json`, put you git/GitHub repo(s) there.
