@@ -10,3 +10,5 @@ minimal example of a working grimoire deployment
 - Go to `LF-Engineering/grimoire-minimal-example`, execute: `tar cf debug.tar *`.
 - Copy debug data into the pod: `testk.sh -n grimoire-debug cp debug.tar mordred-699d69549b-zghvm:/home/grimoire/debug/debug.tar -c mordred`.
 - Shell into mordred pod again: `pod_shell.sh test grimoire-debug mordred-699d69549b-zghvm /bin/bash mordred`, execute: `cd /home/grimoire/debug/ && tar xf debug.tar && rm -f debug.tar`.
+- Edit `mordred.ini` file, provide credentials for `[redacted]` values, for example change `[redacted]` into `[6415b462cd631241ef56132a612b546f2423e6cc]`.
+- Edit `projects.json`, put you git/GiHub repo(s) there.
