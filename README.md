@@ -18,3 +18,4 @@ minimal example of a working grimoire deployment
 - Edit `projects.json`, put you git/GitHub repo(s) there.
 - Start arthurd: `./arthurd.sh &` and monitor its logs in`arthurd_logs/*.log`.
 - Start arthurw: `./arthurw.sh &` and monitor its logs in`arthurw_logs/*.log`.
+- From outside pod you can observe ES data being created via: `./es/get_es_indexes.sh test | grep 'git_raw \|git_enriched \|github_issues_raw \|github_issues_enriched \|github_pull_requests_raw \|github_pull_requests_enriched '`.
