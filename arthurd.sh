@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REDIS_URL=redis://redis-master.redis/15
-PUBSUB_CHANNEL=csqconv
+REDIS_URL=redis://redis-master.redis/65535
+PUBSUB_CHANNEL=debug
 
 arthurd -g --no-daemon \
   -h 0.0.0.0 -p 9999 \

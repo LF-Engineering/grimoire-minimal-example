@@ -1,26 +1,26 @@
 {
   "git": {
     "raw": [
-      "git-raw_csqconv"
+      "git-raw"
     ],
     "enrich": [
-      "git_csqconv",
-      "git_author_csqconv",
-      "git_enrich_csqconv",
-      "affiliations_csqconv"
+      "git",
+      "git_author",
+      "git_enrich",
+      "affiliations"
     ]
   },
   "github": {
     "raw": [
-      "github-raw_csqconv"
+      "github-raw"
     ],
     "enrich": [
-      "github_issues_csqconv",
-      "github_issues_enrich_csqconv",
-      "issues_closed_csqconv",
-      "issues_created_csqconv",
-      "issues_updated_csqconv",
-      "affiliations_csqconv"
+      "github_issues",
+      "github_issues_enrich",
+      "issues_closed",
+      "issues_created",
+      "issues_updated",
+      "affiliations"
     ]
   }
 }
