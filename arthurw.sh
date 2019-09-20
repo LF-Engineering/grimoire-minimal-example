@@ -1,5 +1,5 @@
 #!/bin/bash
-REDIS_URL=redis://redis-master.redis/65535
+REDIS_URL=redis://redis-master.redis/65534
 PUBSUB_CHANNEL=debug
 
 arthurw -g -d "$REDIS_URL" \
